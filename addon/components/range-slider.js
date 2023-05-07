@@ -8,9 +8,8 @@ import { observer, computed } from '@ember/object';
 import Ember from 'ember';
 import noUiSlider from 'noUiSlider';
 
-const {
-  Logger: { warn }
-} = Ember;
+const { warn } = console;
+
 
 export default Component.extend({
   attributeBindings: ['disabledOrUndefined:disabled'],
